@@ -1,0 +1,5 @@
+{
+  "apiLink": "https://ias.rushandball.ru/API/Online/GetGame",
+  "defaultGameId": "17975",
+  "port": 3000
+}
