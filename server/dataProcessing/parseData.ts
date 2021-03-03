@@ -1,6 +1,6 @@
 import {getDataFromIas} from "./getDataFromIas";
 
-function parseData(data:string) {
+function parseData(data: string) {
     let parsedData = JSON.parse(data).Data;
 
     delete parsedData.AllPlays;

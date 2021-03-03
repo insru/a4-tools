@@ -24,4 +24,6 @@
 
 ## How to use
 
-Make req to `http://localhost:3000/game?id=17975` set needed game id in request
+* Make req to `http://localhost:3000/game?id=17975`
+* Set needed game id in request query param
+

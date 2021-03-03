@@ -1,7 +1,6 @@
 {
   "name": "a4-tools",
   "version": "0.0.1",
-  "private": true,
   "author": "Artem Nikonov",
   "scripts": {
     "dev": "tsc -w & NODE_ENV=dev nodemon dist/server/a4-tools",
