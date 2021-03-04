@@ -35,8 +35,7 @@ function parseData(data: string) {
 
     parsedData.TeamA.AllPlayers.forEach((val => {
         teamAAllPlayers.push({
-            LastName: val.LastName,
-            FirstName: val.FirstName,
+            Name: val.FirstName + " "+ val.LastName,
             PlayerNumber: val.PlayerNumber
         })
     }))
@@ -71,8 +70,7 @@ function parseData(data: string) {
 
     parsedData.TeamB.AllPlayers.forEach((val => {
         teamBAllPlayers.push({
-            LastName: val.LastName,
-            FirstName: val.FirstName,
+            Name: val.FirstName + " "+ val.LastName,
             PlayerNumber: val.PlayerNumber
         })
     }))
